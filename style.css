@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     display: flex;
-    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('./img/diagonalley.jpg');
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../img/diagonalley.jpg');
     height:400px;
     background-size:cover;
 }
