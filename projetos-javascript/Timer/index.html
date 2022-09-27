@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./stlye.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Timer</title>
+</head>
+<body>
+    <audio id="sound" src="/assets/alarm.mp3" style="display: none;" ></audio>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <input id="hora" type="number" maxlength="2" max="99" min="0" value="0">
+                </div>
+                :
+                <div class="card">
+                    <input id="minutos" type="number" max="60" min="0" value="0">
+                </div>
+                :
+                <div class="card">
+                    <input id="segundos" type="number" max="60" min="0" value="0">
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="btn" class="pausar"> Iniciar </button>
+                <button id="cancelar"> Cancelar </button>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
