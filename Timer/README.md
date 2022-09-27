@@ -1,2 +1,2 @@
 ## Sobre
-Timer com contador progessivo.
+Timer com contador regressivo e alarme.
